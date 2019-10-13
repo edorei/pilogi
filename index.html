@@ -18,16 +18,1659 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
+
+    <style> 
+        svg:not(:root).svg-inline--fa {
+  overflow: visible;
+}
+
+.svg-inline--fa {
+  display: inline-block;
+  font-size: inherit;
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.225em;
+}
+.svg-inline--fa.fa-w-1 {
+  width: 0.0625em;
+}
+.svg-inline--fa.fa-w-2 {
+  width: 0.125em;
+}
+.svg-inline--fa.fa-w-3 {
+  width: 0.1875em;
+}
+.svg-inline--fa.fa-w-4 {
+  width: 0.25em;
+}
+.svg-inline--fa.fa-w-5 {
+  width: 0.3125em;
+}
+.svg-inline--fa.fa-w-6 {
+  width: 0.375em;
+}
+.svg-inline--fa.fa-w-7 {
+  width: 0.4375em;
+}
+.svg-inline--fa.fa-w-8 {
+  width: 0.5em;
+}
+.svg-inline--fa.fa-w-9 {
+  width: 0.5625em;
+}
+.svg-inline--fa.fa-w-10 {
+  width: 0.625em;
+}
+.svg-inline--fa.fa-w-11 {
+  width: 0.6875em;
+}
+.svg-inline--fa.fa-w-12 {
+  width: 0.75em;
+}
+.svg-inline--fa.fa-w-13 {
+  width: 0.8125em;
+}
+.svg-inline--fa.fa-w-14 {
+  width: 0.875em;
+}
+.svg-inline--fa.fa-w-15 {
+  width: 0.9375em;
+}
+.svg-inline--fa.fa-w-16 {
+  width: 1em;
+}
+.svg-inline--fa.fa-w-17 {
+  width: 1.0625em;
+}
+.svg-inline--fa.fa-w-18 {
+  width: 1.125em;
+}
+.svg-inline--fa.fa-w-19 {
+  width: 1.1875em;
+}
+.svg-inline--fa.fa-w-20 {
+  width: 1.25em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: 0.3em;
+  width: auto;
+}
+.svg-inline--fa.fa-border {
+  height: 1.5em;
+}
+.svg-inline--fa.fa-li {
+  width: 2em;
+}
+.svg-inline--fa.fa-fw {
+  width: 1.25em;
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: #ff253a;
+  border-radius: 1em;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #fff;
+  height: 1.5em;
+  line-height: 1;
+  max-width: 5em;
+  min-width: 1.5em;
+  overflow: hidden;
+  padding: 0.25em;
+  right: 0;
+  text-overflow: ellipsis;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: 0;
+  right: 0;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: 0;
+  left: 0;
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  right: 0;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: 0;
+  right: auto;
+  top: 0;
+  -webkit-transform: scale(0.25);
+          transform: scale(0.25);
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-lg {
+  font-size: 1.3333333333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: 2.5em;
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: -2em;
+  position: absolute;
+  text-align: center;
+  width: 2em;
+  line-height: inherit;
+}
+
+.fa-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.fa-pull-left {
+  float: left;
+}
+
+.fa-pull-right {
+  float: right;
+}
+
+.fa.fa-pull-left,
+.fas.fa-pull-left,
+.far.fa-pull-left,
+.fal.fa-pull-left,
+.fab.fa-pull-left {
+  margin-right: 0.3em;
+}
+.fa.fa-pull-right,
+.fas.fa-pull-right,
+.far.fa-pull-right,
+.fal.fa-pull-right,
+.fab.fa-pull-right {
+  margin-left: 0.3em;
+}
+
+.fa-spin {
+  -webkit-animation: fa-spin 2s infinite linear;
+          animation: fa-spin 2s infinite linear;
+}
+
+.fa-pulse {
+  -webkit-animation: fa-spin 1s infinite steps(8);
+          animation: fa-spin 1s infinite steps(8);
+}
+
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=1)";
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)";
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=3)";
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=0, mirror=1)";
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both, .fa-flip-horizontal.fa-flip-vertical {
+  -ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2, mirror=1)";
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+:root .fa-rotate-90,
+:root .fa-rotate-180,
+:root .fa-rotate-270,
+:root .fa-flip-horizontal,
+:root .fa-flip-vertical,
+:root .fa-flip-both {
+  -webkit-filter: none;
+          filter: none;
+}
+
+.fa-stack {
+  display: inline-block;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: #fff;
+}
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+}
+
+.sr-only-focusable:active, .sr-only-focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: 0.4;
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: 1;
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse {
+  color: #fff;
+}
+.bg-gradient {
+    background-image: -o-linear-gradient(135deg,#0443a2,#009bde);
+    background-image: linear-gradient(-45deg,#1d56f4,#5d5e5e);
+    background-position: center;
+}
+    </style>
 </head>
 <body>
     <main class="main" id="main">
         <div class="container">
             <nav class="navbar-vertical navbar-glass navbar navbar-expand-xl navbar-light">
                 <a href="./" class="text-decoration-none navbar-brand text-left">
-                <div class="d-flex align-items-center py-3"><img class="mr-2" src="./images/logo.png" alt="Logo"
-                        width="120"><span class="text-sans-serif"></span></div>
+                    <div class="d-flex align-items-center py-3"><img class="mr-2" src="./images/logo.png" alt="Logo"
+                            width="100"><span class="text-sans-serif"></span>
+                    </div>
                 </a>
+                <div class="collapse navbar-collapse">
+                    <ul class="navbar-nav flex-column">
+                        <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="true" href="/">
+                                <div class="d-flex align-items-center"><span class="nav-link-icon"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="chart-pie"
+                                            class="svg-inline--fa fa-chart-pie fa-w-17 " role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 544 512">
+                                            <path fill="currentColor"
+                                                d="M527.79 288H290.5l158.03 158.03c6.04 6.04 15.98 6.53 22.19.68 38.7-36.46 65.32-85.61 73.13-140.86 1.34-9.46-6.51-17.85-16.06-17.85zm-15.83-64.8C503.72 103.74 408.26 8.28 288.8.04 279.68-.59 272 7.1 272 16.24V240h223.77c9.14 0 16.82-7.68 16.19-16.8zM224 288V50.71c0-9.55-8.39-17.4-17.84-16.06C86.99 51.49-4.1 155.6.14 280.37 4.5 408.51 114.83 513.59 243.03 511.98c50.4-.63 96.97-16.87 135.26-44.03 7.9-5.6 8.42-17.23 1.57-24.08L224 288z">
+                                            </path>
+                                        </svg></span><span>Home</span></div>
+                            </a>
+                            <div class="collapse show" style="">
+                                <ul class="nav">
+                                    <li class="nav-item"><a aria-current="page" class="nav-link active" name="Dashboard" href="/">
+                                            <div class="d-flex align-items-center"><span>Dashboard</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Landing" href="/landing">
+                                            <div class="d-flex align-items-center"><span>Landing</span></div>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="false" href="/">
+                                <div class="d-flex align-items-center"><span class="nav-link-icon"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="copy" class="svg-inline--fa fa-copy fa-w-14 "
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M320 448v40c0 13.255-10.745 24-24 24H24c-13.255 0-24-10.745-24-24V120c0-13.255 10.745-24 24-24h72v296c0 30.879 25.121 56 56 56h168zm0-344V0H152c-13.255 0-24 10.745-24 24v368c0 13.255 10.745 24 24 24h272c13.255 0 24-10.745 24-24V128H344c-13.2 0-24-10.8-24-24zm120.971-31.029L375.029 7.029A24 24 0 0 0 358.059 0H352v96h96v-6.059a24 24 0 0 0-7.029-16.97z">
+                                            </path>
+                                        </svg></span><span>Pages</span></div>
+                            </a>
+                            <div class="collapse">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link" name="Activity" href="/pages/activity">
+                                            <div class="d-flex align-items-center"><span>Activity</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Associations" href="/pages/associations">
+                                            <div class="d-flex align-items-center"><span>Associations</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Billing" href="/pages/billing">
+                                            <div class="d-flex align-items-center"><span>Billing</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Customer details" href="/pages/customer-details">
+                                            <div class="d-flex align-items-center"><span>Customer details</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Event detail" href="/pages/event-detail">
+                                            <div class="d-flex align-items-center"><span>Event detail</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Event create" href="/pages/event-create">
+                                            <div class="d-flex align-items-center"><span>Event create</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Events" href="/pages/events">
+                                            <div class="d-flex align-items-center"><span>Events</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Faq" href="/pages/faq">
+                                            <div class="d-flex align-items-center"><span>Faq</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Invoice" href="/pages/invoice">
+                                            <div class="d-flex align-items-center"><span>Invoice</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Invite people" href="/pages/invite-people">
+                                            <div class="d-flex align-items-center"><span>Invite people</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Notifications" href="/pages/notifications">
+                                            <div class="d-flex align-items-center"><span>Notifications</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="People" href="/pages/people">
+                                            <div class="d-flex align-items-center"><span>People</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Pricing" href="/pages/pricing">
+                                            <div class="d-flex align-items-center"><span>Pricing</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Pricing alt" href="/pages/pricing-alt">
+                                            <div class="d-flex align-items-center"><span>Pricing alt</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Profile" href="/pages/profile">
+                                            <div class="d-flex align-items-center"><span>Profile</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Settings" href="/pages/settings">
+                                            <div class="d-flex align-items-center"><span>Settings</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Starter" href="/pages/starter">
+                                            <div class="d-flex align-items-center"><span>Starter</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="false" href="/">
+                                            <div class="d-flex align-items-center"><span>Errors</span></div>
+                                        </a>
+                                        <div class="collapse">
+                                            <ul class="nav">
+                                                <li class="nav-item"><a class="nav-link" name="404" href="/errors/404">
+                                                        <div class="d-flex align-items-center"><span>404</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="500" href="/errors/500">
+                                                        <div class="d-flex align-items-center"><span>500</span></div>
+                                                    </a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="false" href="/">
+                                <div class="d-flex align-items-center"><span class="nav-link-icon"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="lock" class="svg-inline--fa fa-lock fa-w-14 "
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M400 224h-24v-72C376 68.2 307.8 0 224 0S72 68.2 72 152v72H48c-26.5 0-48 21.5-48 48v192c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V272c0-26.5-21.5-48-48-48zm-104 0H152v-72c0-39.7 32.3-72 72-72s72 32.3 72 72v72z">
+                                            </path>
+                                        </svg></span><span>Authentication</span></div>
+                            </a>
+                            <div class="collapse">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="false" href="/">
+                                            <div class="d-flex align-items-center"><span>Basic</span></div>
+                                        </a>
+                                        <div class="collapse">
+                                            <ul class="nav">
+                                                <li class="nav-item"><a class="nav-link" name="Login"
+                                                        href="/authentication/basic/login">
+                                                        <div class="d-flex align-items-center"><span>Login</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Logout"
+                                                        href="/authentication/basic/logout">
+                                                        <div class="d-flex align-items-center"><span>Logout</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Register"
+                                                        href="/authentication/basic/register">
+                                                        <div class="d-flex align-items-center"><span>Register</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Forgot password"
+                                                        href="/authentication/basic/forget-password">
+                                                        <div class="d-flex align-items-center"><span>Forgot password</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Reset password"
+                                                        href="/authentication/basic/password-reset">
+                                                        <div class="d-flex align-items-center"><span>Reset password</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Confirm mail"
+                                                        href="/authentication/basic/confirm-mail">
+                                                        <div class="d-flex align-items-center"><span>Confirm mail</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Lock screen"
+                                                        href="/authentication/basic/lock-screen">
+                                                        <div class="d-flex align-items-center"><span>Lock screen</span></div>
+                                                    </a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="false" href="/">
+                                            <div class="d-flex align-items-center"><span>Card</span></div>
+                                        </a>
+                                        <div class="collapse">
+                                            <ul class="nav">
+                                                <li class="nav-item"><a class="nav-link" name="Login" href="/authentication/card/login">
+                                                        <div class="d-flex align-items-center"><span>Login</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Logout"
+                                                        href="/authentication/card/logout">
+                                                        <div class="d-flex align-items-center"><span>Logout</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Register"
+                                                        href="/authentication/card/register">
+                                                        <div class="d-flex align-items-center"><span>Register</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Forgot password"
+                                                        href="/authentication/card/forget-password">
+                                                        <div class="d-flex align-items-center"><span>Forgot password</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Reset password"
+                                                        href="/authentication/card/password-reset">
+                                                        <div class="d-flex align-items-center"><span>Reset password</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Confirm mail"
+                                                        href="/authentication/card/confirm-mail">
+                                                        <div class="d-flex align-items-center"><span>Confirm mail</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Lock screen"
+                                                        href="/authentication/card/lock-screen">
+                                                        <div class="d-flex align-items-center"><span>Lock screen</span></div>
+                                                    </a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="false" href="/">
+                                            <div class="d-flex align-items-center"><span>Split</span></div>
+                                        </a>
+                                        <div class="collapse">
+                                            <ul class="nav">
+                                                <li class="nav-item"><a class="nav-link" name="Login"
+                                                        href="/authentication/split/login">
+                                                        <div class="d-flex align-items-center"><span>Login</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Logout"
+                                                        href="/authentication/split/logout">
+                                                        <div class="d-flex align-items-center"><span>Logout</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Register"
+                                                        href="/authentication/split/register">
+                                                        <div class="d-flex align-items-center"><span>Register</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Forgot password"
+                                                        href="/authentication/split/forget-password">
+                                                        <div class="d-flex align-items-center"><span>Forgot password</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Reset password"
+                                                        href="/authentication/split/password-reset">
+                                                        <div class="d-flex align-items-center"><span>Reset password</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Confirm mail"
+                                                        href="/authentication/split/confirm-mail">
+                                                        <div class="d-flex align-items-center"><span>Confirm mail</span></div>
+                                                    </a></li>
+                                                <li class="nav-item"><a class="nav-link" name="Lock screen"
+                                                        href="/authentication/split/lock-screen">
+                                                        <div class="d-flex align-items-center"><span>Lock screen</span></div>
+                                                    </a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="false" href="/">
+                                <div class="d-flex align-items-center"><span class="nav-link-icon"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="puzzle-piece"
+                                            class="svg-inline--fa fa-puzzle-piece fa-w-18 " role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                                            <path fill="currentColor"
+                                                d="M519.442 288.651c-41.519 0-59.5 31.593-82.058 31.593C377.409 320.244 432 144 432 144s-196.288 80-196.288-3.297c0-35.827 36.288-46.25 36.288-85.985C272 19.216 243.885 0 210.539 0c-34.654 0-66.366 18.891-66.366 56.346 0 41.364 31.711 59.277 31.711 81.75C175.885 207.719 0 166.758 0 166.758v333.237s178.635 41.047 178.635-28.662c0-22.473-40-40.107-40-81.471 0-37.456 29.25-56.346 63.577-56.346 33.673 0 61.788 19.216 61.788 54.717 0 39.735-36.288 50.158-36.288 85.985 0 60.803 129.675 25.73 181.23 25.73 0 0-34.725-120.101 25.827-120.101 35.962 0 46.423 36.152 86.308 36.152C556.712 416 576 387.99 576 354.443c0-34.199-18.962-65.792-56.558-65.792z">
+                                            </path>
+                                        </svg></span><span>Components</span></div>
+                            </a>
+                            <div class="collapse">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link" name="Alerts" href="/components/alerts">
+                                            <div class="d-flex align-items-center"><span>Alerts</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Accordions" href="/components/accordions">
+                                            <div class="d-flex align-items-center"><span>Accordions</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Avatar" href="/components/avatar">
+                                            <div class="d-flex align-items-center"><span>Avatar</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Badges" href="/components/badges">
+                                            <div class="d-flex align-items-center"><span>Badges</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Backgrounds" href="/components/backgrounds">
+                                            <div class="d-flex align-items-center"><span>Backgrounds</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Breadcrumb" href="/components/breadcrumb">
+                                            <div class="d-flex align-items-center"><span>Breadcrumb</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Buttons" href="/components/buttons">
+                                            <div class="d-flex align-items-center"><span>Buttons</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Cards" href="/components/cards">
+                                            <div class="d-flex align-items-center"><span>Cards</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Collapses" href="/components/collapses">
+                                            <div class="d-flex align-items-center"><span>Collapses</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Dropdowns" href="/components/dropdowns">
+                                            <div class="d-flex align-items-center"><span>Dropdowns</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Forms" href="/components/forms">
+                                            <div class="d-flex align-items-center"><span>Forms</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="List groups" href="/components/listgroups">
+                                            <div class="d-flex align-items-center"><span>List groups</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Modals" href="/components/modals">
+                                            <div class="d-flex align-items-center"><span>Modals</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Navs" href="/components/navs">
+                                            <div class="d-flex align-items-center"><span>Navs</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Navbars" href="/components/navbars">
+                                            <div class="d-flex align-items-center"><span>Navbars</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Page headers" href="/components/pageheaders">
+                                            <div class="d-flex align-items-center"><span>Page headers</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Paginations" href="/components/paginations">
+                                            <div class="d-flex align-items-center"><span>Paginations</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Popovers" href="/components/popovers">
+                                            <div class="d-flex align-items-center"><span>Popovers</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Progress" href="/components/progress">
+                                            <div class="d-flex align-items-center"><span>Progress</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Tables" href="/components/tables">
+                                            <div class="d-flex align-items-center"><span>Tables</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Tooltips" href="/components/tooltips">
+                                            <div class="d-flex align-items-center"><span>Tooltips</span></div>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="false" href="/">
+                                <div class="d-flex align-items-center"><span class="nav-link-icon"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="fab" data-icon="hotjar"
+                                            class="svg-inline--fa fa-hotjar fa-w-14 " role="img" xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M414.9 161.5C340.2 29 121.1 0 121.1 0S222.2 110.4 93 197.7C11.3 252.8-21 324.4 14 402.6c26.8 59.9 83.5 84.3 144.6 93.4-29.2-55.1-6.6-122.4-4.1-129.6 57.1 86.4 165 0 110.8-93.9 71 15.4 81.6 138.6 27.1 215.5 80.5-25.3 134.1-88.9 148.8-145.6 15.5-59.3 3.7-127.9-26.3-180.9z">
+                                            </path>
+                                        </svg></span><span>Utilities</span></div>
+                            </a>
+                            <div class="collapse">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link" name="Borders" href="/utilities/borders">
+                                            <div class="d-flex align-items-center"><span>Borders</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Clearfix" href="/utilities/clearfix">
+                                            <div class="d-flex align-items-center"><span>Clearfix</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Close icon" href="/utilities/closeIcon">
+                                            <div class="d-flex align-items-center"><span>Close icon</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Colors" href="/utilities/colors">
+                                            <div class="d-flex align-items-center"><span>Colors</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Display" href="/utilities/display">
+                                            <div class="d-flex align-items-center"><span>Display</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Embed" href="/utilities/embed">
+                                            <div class="d-flex align-items-center"><span>Embed</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Figures" href="/utilities/figures">
+                                            <div class="d-flex align-items-center"><span>Figures</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Flex" href="/utilities/flex">
+                                            <div class="d-flex align-items-center"><span>Flex</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Grid" href="/utilities/grid">
+                                            <div class="d-flex align-items-center"><span>Grid</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Sizing" href="/utilities/sizing">
+                                            <div class="d-flex align-items-center"><span>Sizing</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Spacing" href="/utilities/spacing">
+                                            <div class="d-flex align-items-center"><span>Spacing</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Stretched link" href="/utilities/stretchedLink">
+                                            <div class="d-flex align-items-center"><span>Stretched link</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Typography" href="/utilities/typography">
+                                            <div class="d-flex align-items-center"><span>Typography</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Vertical align" href="/utilities/verticalAlign">
+                                            <div class="d-flex align-items-center"><span>Vertical align</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Visibility" href="/utilities/visibility">
+                                            <div class="d-flex align-items-center"><span>Visibility</span></div>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link dropdown-indicator" aria-expanded="false" href="/">
+                                <div class="d-flex align-items-center"><span class="nav-link-icon"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="plug" class="svg-inline--fa fa-plug fa-w-12 "
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+                                            <path fill="currentColor"
+                                                d="M256 144V32c0-17.673 14.327-32 32-32s32 14.327 32 32v112h-64zm112 16H16c-8.837 0-16 7.163-16 16v32c0 8.837 7.163 16 16 16h16v32c0 77.406 54.969 141.971 128 156.796V512h64v-99.204c73.031-14.825 128-79.39 128-156.796v-32h16c8.837 0 16-7.163 16-16v-32c0-8.837-7.163-16-16-16zm-240-16V32c0-17.673-14.327-32-32-32S64 14.327 64 32v112h64z">
+                                            </path>
+                                        </svg></span><span>Plugins</span></div>
+                            </a>
+                            <div class="collapse">
+                                <ul class="nav">
+                                    <li class="nav-item"><a class="nav-link" name="Typed" href="/plugins/typed">
+                                            <div class="d-flex align-items-center"><span>Typed</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Image lightbox" href="/plugins/image-lightbox">
+                                            <div class="d-flex align-items-center"><span>Image lightbox</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Google map" href="/plugins/google-map">
+                                            <div class="d-flex align-items-center"><span>Google map</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Chart" href="/plugins/chart">
+                                            <div class="d-flex align-items-center"><span>Chart</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Countup" href="/plugins/countup">
+                                            <div class="d-flex align-items-center"><span>Countup</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Datetime" href="/plugins/datetime">
+                                            <div class="d-flex align-items-center"><span>Datetime</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Fontawesome" href="/plugins/fontawesome">
+                                            <div class="d-flex align-items-center"><span>Fontawesome</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Echarts" href="/plugins/echarts">
+                                            <div class="d-flex align-items-center"><span>Echarts</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Toastify" href="/plugins/toastify">
+                                            <div class="d-flex align-items-center"><span>Toastify</span></div>
+                                        </a></li>
+                                    <li class="nav-item"><a class="nav-link" name="Select" href="/plugins/select">
+                                            <div class="d-flex align-items-center"><span>Select</span></div>
+                                        </a></li>
+                                </ul>
+                            </div>
+                        </li>
+                        <li class="nav-item"><a class="nav-link" name="Documentation" icon="book" href="/documentation">
+                                <div class="d-flex align-items-center"><span class="nav-link-icon"><svg aria-hidden="true"
+                                            focusable="false" data-prefix="fas" data-icon="book" class="svg-inline--fa fa-book fa-w-14 "
+                                            role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                                            <path fill="currentColor"
+                                                d="M448 360V24c0-13.3-10.7-24-24-24H96C43 0 0 43 0 96v320c0 53 43 96 96 96h328c13.3 0 24-10.7 24-24v-16c0-7.5-3.5-14.3-8.9-18.7-4.2-15.4-4.2-59.3 0-74.7 5.4-4.3 8.9-11.1 8.9-18.6zM128 134c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm0 64c0-3.3 2.7-6 6-6h212c3.3 0 6 2.7 6 6v20c0 3.3-2.7 6-6 6H134c-3.3 0-6-2.7-6-6v-20zm253.4 250H96c-17.7 0-32-14.3-32-32 0-17.6 14.4-32 32-32h285.4c-1.9 17.1-1.9 46.9 0 64z">
+                                            </path>
+                                        </svg></span><span>Documentation</span></div>
+                            </a></li>
+                    </ul>
+                    <div class="px-3 px-xl-0">
+                        <hr class="border-300 my-3">
+                        <h6 class="text-uppercase fs--2 font-weight-semi-bold ls text-600">Settings</h6>
+                        <div class="bg-light border py-card rounded" style="padding-left: 1.4375rem; padding-right: 1.4375rem;">
+                            <div class="custom-checkbox custom-control"><input type="checkbox" id="rtl" name="rtl"
+                                    class="custom-control-input"><label class="custom-control-label" for="rtl">RTL Layout</label></div>
+                            <div class="custom-checkbox custom-control"><input type="checkbox" id="fluid" name="fluid"
+                                    class="custom-control-input"><label class="custom-control-label" for="fluid">Fluid Container</label>
+                            </div>
+                        </div>
+                    </div><button class="my-3 btn btn-primary btn-sm btn-block">Purchase</button>
+                </div>
             </nav>
+
+            <div class="content">
+                <nav class="navbar-glass fs--1 font-weight-semi-bold row navbar-top sticky-kit navbar navbar-expand navbar-light">
+                    <button id="burgerMenu" type="button" class="navbar-toggler"><span
+                            class="navbar-toggler-icon"></span></button><a class="text-decoration-none navbar-brand text-left ml-3"
+                        id="topLogo" href="/">
+                        <div class="d-flex align-items-center"><img class="mr-2" src="/static/media/falcon.50cb13e2.png" alt="Logo"
+                                width="40"><span class="text-sans-serif">falcon</span></div>
+                    </a>
+                    <div class="collapse navbar-collapse">
+                        <ul class="align-items-center d-none d-lg-block navbar-nav">
+                            <li class="nav-item">
+                                <form class="search-box form-inline"><input placeholder="Search..." aria-label="Search"
+                                        type="search" class="rounded-pill search-input form-control"><svg aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="search"
+                                        class="svg-inline--fa fa-search fa-w-16 position-absolute text-400 search-box-icon"
+                                        role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                        <path fill="currentColor"
+                                            d="M505 442.7L405.3 343c-4.5-4.5-10.6-7-17-7H372c27.6-35.3 44-79.7 44-128C416 93.1 322.9 0 208 0S0 93.1 0 208s93.1 208 208 208c48.3 0 92.7-16.4 128-44v16.3c0 6.4 2.5 12.5 7 17l99.7 99.7c9.4 9.4 24.6 9.4 33.9 0l28.3-28.3c9.4-9.4 9.4-24.6.1-34zM208 336c-70.7 0-128-57.2-128-128 0-70.7 57.2-128 128-128 70.7 0 128 57.2 128 128 0 70.7-57.2 128-128 128z">
+                                        </path>
+                                    </svg></form>
+                            </li>
+                        </ul>
+                        <ul class="align-items-center ml-auto navbar-nav">
+                            <li class="dropdown nav-item"><a aria-haspopup="true" href="#" class="unread-indicator px-0 nav-link"
+                                    aria-expanded="false"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                        data-icon="bell" class="svg-inline--fa fa-bell fa-w-14 fs-4" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"
+                                        style="transform-origin: 0.4375em 0.5em;">
+                                        <g transform="translate(224 256)">
+                                            <g transform="translate(0, 0)  scale(0.625, 0.625)  rotate(0 0 0)">
+                                                <path fill="currentColor"
+                                                    d="M224 512c35.32 0 63.97-28.65 63.97-64H160.03c0 35.35 28.65 64 63.97 64zm215.39-149.71c-19.32-20.76-55.47-51.99-55.47-154.29 0-77.7-54.48-139.9-127.94-155.16V32c0-17.67-14.32-32-31.98-32s-31.98 14.33-31.98 32v20.84C118.56 68.1 64.08 130.3 64.08 208c0 102.3-36.15 133.53-55.47 154.29-6 6.45-8.66 14.16-8.61 21.71.11 16.4 12.98 32 32.1 32h383.8c19.12 0 32-15.6 32.1-32 .05-7.55-2.61-15.27-8.61-21.71z"
+                                                    transform="translate(-224 -256)"></path>
+                                            </g>
+                                        </g>
+                                    </svg></a>
+                                <div tabindex="-1" role="menu" aria-hidden="true"
+                                    class="dropdown-menu-card dropdown-menu dropdown-menu-right">
+                                    <div class="card-notification shadow-none card" style="max-width: 20rem;">
+                                        <div class="card-header card-header">
+                                            <div class="align-items-center row">
+                                                <div class="col">
+                                                    <h6 class="mb-0">Notifications</h6>
+                                                </div>
+                                                <div class="text-right col-auto"><a class="card-link font-weight-normal"
+                                                        href="/#!">Mark all as read</a></div>
+                                            </div>
+                                        </div>
+                                        <ul class="font-weight-normal fs--1 list-group list-group-flush">
+                                            <div class="list-group-title">NEW</div>
+                                            <li class="list-group-item"><a
+                                                    class="notification bg-200 notification-flush rounded-0 border-x-0 border-300 border-bottom-0"
+                                                    href="/#!">
+                                                    <div class="notification-avatar">
+                                                        <div class="avatar avatar-2xl mr-3"><img class="rounded-circle "
+                                                                src="/static/media/1.38f0341f.jpg" alt=""></div>
+                                                    </div>
+                                                    <div class="notification-body">
+                                                        <p class="mb-1"><strong>Emma Watson</strong> replied to your comment :
+                                                            "Hello world 😍"</p><span class="notification-time"><span class="mr-1"
+                                                                role="img" aria-label="Emoji">💬</span>Just Now</span>
+                                                    </div>
+                                                </a></li>
+                                            <li class="list-group-item"><a
+                                                    class="notification bg-200 notification-flush rounded-0 border-x-0 border-300 border-bottom-0"
+                                                    href="/#!">
+                                                    <div class="notification-avatar">
+                                                        <div class="avatar avatar-2xl mr-3">
+                                                            <div class="avatar-name rounded-circle "><span>AB</span></div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="notification-body">
+                                                        <p class="mb-1"><strong>Albert Brooks</strong> reacted to <strong>Mia
+                                                                Khalifa's</strong> status</p><span class="notification-time"><span
+                                                                class="mr-1" role="img" aria-label="Emoji">❤️</span>9hr</span>
+                                                    </div>
+                                                </a></li>
+                                            <div class="list-group-title">EARLIER</div>
+                                            <li class="list-group-item"><a
+                                                    class="notification notification-flush rounded-0 border-x-0 border-300 border-bottom-0"
+                                                    href="/#!">
+                                                    <div class="notification-avatar">
+                                                        <div class="avatar avatar-2xl mr-3"><img class="rounded-circle "
+                                                                src="/static/media/weather.4bf9c59e.jpg" alt=""></div>
+                                                    </div>
+                                                    <div class="notification-body">
+                                                        <p class="mb-1">The forecast today shows a low of 20℃ in California. See
+                                                            today's weather.</p><span class="notification-time"><span class="mr-1"
+                                                                role="img" aria-label="Emoji">🌤️</span>9hr</span>
+                                                    </div>
+                                                </a></li>
+                                        </ul>
+                                        <div class="card-footer text-center border-top-0"><a class="card-link d-block"
+                                                href="/pages/notifications">View all</a></div>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="dropdown nav-item"><a aria-haspopup="true" href="#" class="pr-0 nav-link"
+                                    aria-expanded="false">
+                                    <div class="avatar avatar-xl "><img class="rounded-circle " src="/static/media/3.cb95ae1b.jpg"
+                                            alt=""></div>
+                                </a>
+                                <div tabindex="-1" role="menu" aria-hidden="true"
+                                    class="dropdown-menu-card dropdown-menu dropdown-menu-right">
+                                    <div class="bg-white rounded-soft py-2"><a href="#!" tabindex="0" role="menuitem"
+                                            class="font-weight-bold text-warning dropdown-item"><svg aria-hidden="true"
+                                                focusable="false" data-prefix="fas" data-icon="crown"
+                                                class="svg-inline--fa fa-crown fa-w-20 mr-1" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512">
+                                                <path fill="currentColor"
+                                                    d="M528 448H112c-8.8 0-16 7.2-16 16v32c0 8.8 7.2 16 16 16h416c8.8 0 16-7.2 16-16v-32c0-8.8-7.2-16-16-16zm64-320c-26.5 0-48 21.5-48 48 0 7.1 1.6 13.7 4.4 19.8L476 239.2c-15.4 9.2-35.3 4-44.2-11.6L350.3 85C361 76.2 368 63 368 48c0-26.5-21.5-48-48-48s-48 21.5-48 48c0 15 7 28.2 17.7 37l-81.5 142.6c-8.9 15.6-28.9 20.8-44.2 11.6l-72.3-43.4c2.7-6 4.4-12.7 4.4-19.8 0-26.5-21.5-48-48-48S0 149.5 0 176s21.5 48 48 48c2.6 0 5.2-.4 7.7-.8L128 416h384l72.3-192.8c2.5.4 5.1.8 7.7.8 26.5 0 48-21.5 48-48s-21.5-48-48-48z">
+                                                </path>
+                                            </svg><span>Go Pro</span></a>
+                                        <div tabindex="-1" class="dropdown-divider"></div><a href="#!" tabindex="0" role="menuitem"
+                                            class="dropdown-item">Set status</a><a tabindex="0" role="menuitem"
+                                            class="dropdown-item" href="/pages/profile">Profile &amp; account</a><a href="#!"
+                                            tabindex="0" role="menuitem" class="dropdown-item">Feedback</a>
+                                        <div tabindex="-1" class="dropdown-divider"></div><a tabindex="0" role="menuitem"
+                                            class="dropdown-item" href="/pages/settings">Settings</a><a tabindex="0" role="menuitem"
+                                            class="dropdown-item" href="/authentication/basic/logout">Logout</a>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="mb-3 card">
+                    <div class="rounded-soft bg-gradient card-body">
+                        <div class="chartjs-size-monitor">
+                            <div class="chartjs-size-monitor-expand">
+                                <div class=""></div>
+                            </div>
+                            <div class="chartjs-size-monitor-shrink">
+                                <div class=""></div>
+                            </div>
+                        </div>
+                        <div class="text-white align-items-center no-gutters row">
+                            <div class="col">
+                                <h4 class="text-white mb-0">Today $764.39</h4>
+                                <p class="fs--1 font-weight-semi-bold">Yesterday <span class="text-300">$684.87</span></p>
+                            </div>
+                            <div class="d-none d-sm-block col-auto"><select id="ddd" type="select"
+                                    class="mb-3 shadow custom-select custom-select-sm">
+                                    <option value="all">All Payments</option>
+                                    <option value="successful">Successful Payments</option>
+                                    <option value="failed">Failed Payments</option>
+                                </select></div>
+                        </div><canvas height="536" width="2320" style="display: block; height: 268px; width: 1160px;"
+                            class="chartjs-render-monitor"></canvas>
+                    </div>
+                </div>
+                <div class="bg-light mb-3 card">
+                    <div class="p-3 card-body">
+                        <p class="fs--1 mb-0"><a href="/#!"><svg aria-hidden="true" focusable="false" data-prefix="fas"
+                                    data-icon="exchange-alt" class="svg-inline--fa fa-exchange-alt fa-w-16 mr-2" role="img"
+                                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" style="transform-origin: 0.5em 0.5em;">
+                                    <g transform="translate(256 256)">
+                                        <g transform="translate(0, 0)  scale(1, 1)  rotate(90 0 0)">
+                                            <path fill="currentColor"
+                                                d="M0 168v-16c0-13.255 10.745-24 24-24h360V80c0-21.367 25.899-32.042 40.971-16.971l80 80c9.372 9.373 9.372 24.569 0 33.941l-80 80C409.956 271.982 384 261.456 384 240v-48H24c-13.255 0-24-10.745-24-24zm488 152H128v-48c0-21.314-25.862-32.08-40.971-16.971l-80 80c-9.372 9.373-9.372 24.569 0 33.941l80 80C102.057 463.997 128 453.437 128 432v-48h360c13.255 0 24-10.745 24-24v-16c0-13.255-10.745-24-24-24z"
+                                                transform="translate(-256 -256)"></path>
+                                        </g>
+                                    </g>
+                                </svg>A payout for <strong>$921.42</strong> was deposited 13 days ago</a>. Your next deposit is
+                            expected on <strong>Tuesday, March 13.</strong></p>
+                    </div>
+                </div>
+                <div class="card-deck">
+                    <div class="mb-3 overflow-hidden card" style="min-width: 12rem;">
+                        <div class="bg-holder bg-card"
+                            style="background-image: url(&quot;data:image/png;base64,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&quot;);">
+                        </div>
+                        <div class="position-relative card-body">
+                            <h6>Customers<span class="badge badge-soft-warning rounded-capsule ml-2">-0.23%</span></h6>
+                            <div class="display-4 fs-4 mb-2 font-weight-normal text-sans-serif text-warning">58.39k</div><a
+                                class="font-weight-semi-bold fs--1 text-nowrap" href="/#!">See all<svg aria-hidden="true"
+                                    focusable="false" data-prefix="fas" data-icon="angle-right"
+                                    class="svg-inline--fa fa-angle-right fa-w-8 ml-1" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 256 512" style="transform-origin: 0.25em 0.59375em;">
+                                    <g transform="translate(128 256)">
+                                        <g transform="translate(0, 48)  scale(1, 1)  rotate(0 0 0)">
+                                            <path fill="currentColor"
+                                                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                                transform="translate(-128 -256)"></path>
+                                        </g>
+                                    </g>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="mb-3 overflow-hidden card" style="min-width: 12rem;">
+                        <div class="bg-holder bg-card"
+                            style="background-image: url(&quot;data:image/png;base64,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&quot;);">
+                        </div>
+                        <div class="position-relative card-body">
+                            <h6>Orders<span class="badge badge-soft-info rounded-capsule ml-2">0.0%</span></h6>
+                            <div class="display-4 fs-4 mb-2 font-weight-normal text-sans-serif text-info">73.46k</div><a
+                                class="font-weight-semi-bold fs--1 text-nowrap" href="/#!">All orders<svg aria-hidden="true"
+                                    focusable="false" data-prefix="fas" data-icon="angle-right"
+                                    class="svg-inline--fa fa-angle-right fa-w-8 ml-1" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 256 512" style="transform-origin: 0.25em 0.59375em;">
+                                    <g transform="translate(128 256)">
+                                        <g transform="translate(0, 48)  scale(1, 1)  rotate(0 0 0)">
+                                            <path fill="currentColor"
+                                                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                                transform="translate(-128 -256)"></path>
+                                        </g>
+                                    </g>
+                                </svg></a>
+                        </div>
+                    </div>
+                    <div class="mb-3 overflow-hidden card" style="min-width: 12rem;">
+                        <div class="bg-holder bg-card"
+                            style="background-image: url(&quot;/static/media/corner-3.04fc25e4.png&quot;);"></div>
+                        <div class="position-relative card-body">
+                            <h6>Revenue<span class="badge badge-soft-success rounded-capsule ml-2">9.54%</span></h6>
+                            <div class="display-4 fs-4 mb-2 font-weight-normal text-sans-serif"><span>$43,594</span></div><a
+                                class="font-weight-semi-bold fs--1 text-nowrap" href="/#!">Statistics<svg aria-hidden="true"
+                                    focusable="false" data-prefix="fas" data-icon="angle-right"
+                                    class="svg-inline--fa fa-angle-right fa-w-8 ml-1" role="img" xmlns="http://www.w3.org/2000/svg"
+                                    viewBox="0 0 256 512" style="transform-origin: 0.25em 0.59375em;">
+                                    <g transform="translate(128 256)">
+                                        <g transform="translate(0, 48)  scale(1, 1)  rotate(0 0 0)">
+                                            <path fill="currentColor"
+                                                d="M224.3 273l-136 136c-9.4 9.4-24.6 9.4-33.9 0l-22.6-22.6c-9.4-9.4-9.4-24.6 0-33.9l96.4-96.4-96.4-96.4c-9.4-9.4-9.4-24.6 0-33.9L54.3 103c9.4-9.4 24.6-9.4 33.9 0l136 136c9.5 9.4 9.5 24.6.1 34z"
+                                                transform="translate(-128 -256)"></path>
+                                        </g>
+                                    </g>
+                                </svg></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="mb-3 card">
+                    <div class="card-header">
+                        <div class="align-items-center row">
+                            <div class="col">
+                                <h5 class="mb-0">Recent Purchases</h5>
+                            </div>
+                            <div class="text-right col-auto"><button class="btn btn-falcon-default btn-sm"><svg aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="plus"
+                                        class="svg-inline--fa fa-plus fa-w-14 mr-1" role="img" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 448 512" style="transform-origin: 0.4375em 0.625em;">
+                                        <g transform="translate(224 256)">
+                                            <g transform="translate(0, 64)  scale(0.8125, 0.8125)  rotate(0 0 0)">
+                                                <path fill="currentColor"
+                                                    d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+                                                    transform="translate(-224 -256)"></path>
+                                            </g>
+                                        </g>
+                                    </svg>New</button><button class="mx-2 btn btn-falcon-default btn-sm"><svg aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="filter"
+                                        class="svg-inline--fa fa-filter fa-w-16 mr-1" role="img" xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 512 512" style="transform-origin: 0.5em 0.625em;">
+                                        <g transform="translate(256 256)">
+                                            <g transform="translate(0, 64)  scale(0.8125, 0.8125)  rotate(0 0 0)">
+                                                <path fill="currentColor"
+                                                    d="M487.976 0H24.028C2.71 0-8.047 25.866 7.058 40.971L192 225.941V432c0 7.831 3.821 15.17 10.237 19.662l80 55.98C298.02 518.69 320 507.493 320 487.98V225.941l184.947-184.97C520.021 25.896 509.338 0 487.976 0z"
+                                                    transform="translate(-256 -256)"></path>
+                                            </g>
+                                        </g>
+                                    </svg>Filter</button><button class="btn btn-falcon-default btn-sm"><svg aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="external-link-alt"
+                                        class="svg-inline--fa fa-external-link-alt fa-w-18 mr-1" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+                                        style="transform-origin: 0.5625em 0.625em;">
+                                        <g transform="translate(288 256)">
+                                            <g transform="translate(0, 64)  scale(0.8125, 0.8125)  rotate(0 0 0)">
+                                                <path fill="currentColor"
+                                                    d="M576 24v127.984c0 21.461-25.96 31.98-40.971 16.971l-35.707-35.709-243.523 243.523c-9.373 9.373-24.568 9.373-33.941 0l-22.627-22.627c-9.373-9.373-9.373-24.569 0-33.941L442.756 76.676l-35.703-35.705C391.982 25.9 402.656 0 424.024 0H552c13.255 0 24 10.745 24 24zM407.029 270.794l-16 16A23.999 23.999 0 0 0 384 303.765V448H64V128h264a24.003 24.003 0 0 0 16.97-7.029l16-16C376.089 89.851 365.381 64 344 64H48C21.49 64 0 85.49 0 112v352c0 26.51 21.49 48 48 48h352c26.51 0 48-21.49 48-48V287.764c0-21.382-25.852-32.09-40.971-16.97z"
+                                                    transform="translate(-288 -256)"></path>
+                                            </g>
+                                        </g>
+                                    </svg>Export</button></div>
+                        </div>
+                    </div>
+                    <div class="p-0 card-body">
+                        <div class="table-responsive">
+                            <div class="react-bootstrap-table">
+                                <table class="table table-dashboard table-sm fs--1 border-bottom mb-0">
+                                    <thead>
+                                        <tr class="bg-200 text-900">
+                                            <th data-row-selection="true">
+                                                <div class="custom-control custom-checkbox"><input class="custom-control-input"
+                                                        type="checkbox"><label class="custom-control-label"></label></div>
+                                            </th>
+                                            <th tabindex="0" class="sortable">Customer<span class="order-4"></span></th>
+                                            <th tabindex="0" class="sortable">Email<span class="order-4"></span></th>
+                                            <th tabindex="0" class="sortable">Product<span class="order-4"></span></th>
+                                            <th tabindex="0" class="sortable">Payment<span class="order-4"></span></th>
+                                            <th tabindex="0" class="sortable" style="text-align: right;">Amount<span
+                                                    class="order-4"></span></th>
+                                            <th tabindex="0"></th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr class="btn-reveal-trigger">
+                                            <td>
+                                                <div class="custom-control custom-checkbox"><input class="custom-control-input"
+                                                        type="checkbox"><label class="custom-control-label"></label></div>
+                                            </td>
+                                            <td><a class="font-weight-semi-bold" href="/pages/customer-details">Sylvia Plath</a>
+                                            </td>
+                                            <td>john@gmail.com</td>
+                                            <td>Slick - Drag &amp; Drop Bootstrap Generator</td>
+                                            <td><span class="rounded-capsule fs--1 badge badge-soft-success">Success<svg
+                                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                                        class="svg-inline--fa fa-check fa-w-16 ml-1" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        style="transform-origin: 0.5em 0.5em;">
+                                                        <g transform="translate(256 256)">
+                                                            <g transform="translate(0, 0)  scale(0.875, 0.875)  rotate(0 0 0)">
+                                                                <path fill="currentColor"
+                                                                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                                                                    transform="translate(-256 -256)"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span></td>
+                                            <td style="text-align: right;">$99</td>
+                                            <td>
+                                                <div class="dropdown"><button type="button" aria-haspopup="true"
+                                                        aria-expanded="false" class="text-600 btn-reveal btn btn-link btn-sm"><svg
+                                                            aria-hidden="true" focusable="false" data-prefix="fas"
+                                                            data-icon="ellipsis-h"
+                                                            class="svg-inline--fa fa-ellipsis-h fa-w-16 fs--1" role="img"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                            <path fill="currentColor"
+                                                                d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z">
+                                                            </path>
+                                                        </svg></button>
+                                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                                        class="border py-2 dropdown-menu dropdown-menu-right"><button type="button"
+                                                            tabindex="0" role="menuitem" class="dropdown-item">View</button><button
+                                                            type="button" tabindex="0" role="menuitem"
+                                                            class="dropdown-item">Edit</button><button type="button" tabindex="0"
+                                                            role="menuitem" class="dropdown-item">Refund</button>
+                                                        <div tabindex="-1" class="dropdown-divider"></div><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-warning dropdown-item">Archive</button><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-danger dropdown-item">Delete</button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="btn-reveal-trigger">
+                                            <td>
+                                                <div class="custom-control custom-checkbox"><input class="custom-control-input"
+                                                        type="checkbox"><label class="custom-control-label"></label></div>
+                                            </td>
+                                            <td><a class="font-weight-semi-bold" href="/pages/customer-details">Homer</a></td>
+                                            <td>sylvia@mail.ru</td>
+                                            <td>Bose SoundSport Wireless Headphones</td>
+                                            <td><span class="rounded-capsule fs--1 badge badge-soft-success">Success<svg
+                                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                                        class="svg-inline--fa fa-check fa-w-16 ml-1" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        style="transform-origin: 0.5em 0.5em;">
+                                                        <g transform="translate(256 256)">
+                                                            <g transform="translate(0, 0)  scale(0.875, 0.875)  rotate(0 0 0)">
+                                                                <path fill="currentColor"
+                                                                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                                                                    transform="translate(-256 -256)"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span></td>
+                                            <td style="text-align: right;">$634</td>
+                                            <td>
+                                                <div class="dropdown"><button type="button" aria-haspopup="true"
+                                                        aria-expanded="false" class="text-600 btn-reveal btn btn-link btn-sm"><svg
+                                                            aria-hidden="true" focusable="false" data-prefix="fas"
+                                                            data-icon="ellipsis-h"
+                                                            class="svg-inline--fa fa-ellipsis-h fa-w-16 fs--1" role="img"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                            <path fill="currentColor"
+                                                                d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z">
+                                                            </path>
+                                                        </svg></button>
+                                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                                        class="border py-2 dropdown-menu dropdown-menu-right"><button type="button"
+                                                            tabindex="0" role="menuitem" class="dropdown-item">View</button><button
+                                                            type="button" tabindex="0" role="menuitem"
+                                                            class="dropdown-item">Edit</button><button type="button" tabindex="0"
+                                                            role="menuitem" class="dropdown-item">Refund</button>
+                                                        <div tabindex="-1" class="dropdown-divider"></div><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-warning dropdown-item">Archive</button><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-danger dropdown-item">Delete</button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="btn-reveal-trigger">
+                                            <td>
+                                                <div class="custom-control custom-checkbox"><input class="custom-control-input"
+                                                        type="checkbox"><label class="custom-control-label"></label></div>
+                                            </td>
+                                            <td><a class="font-weight-semi-bold" href="/pages/customer-details">Edgar Allan Poe</a>
+                                            </td>
+                                            <td>edgar@yahoo.com</td>
+                                            <td>All-New Fire HD 8 Kids Edition Tablet</td>
+                                            <td><span class="rounded-capsule fs--1 badge badge-soft-secondary">Blocked<svg
+                                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ban"
+                                                        class="svg-inline--fa fa-ban fa-w-16 ml-1" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        style="transform-origin: 0.5em 0.5em;">
+                                                        <g transform="translate(256 256)">
+                                                            <g transform="translate(0, 0)  scale(0.875, 0.875)  rotate(0 0 0)">
+                                                                <path fill="currentColor"
+                                                                    d="M256 8C119.034 8 8 119.033 8 256s111.034 248 248 248 248-111.034 248-248S392.967 8 256 8zm130.108 117.892c65.448 65.448 70 165.481 20.677 235.637L150.47 105.216c70.204-49.356 170.226-44.735 235.638 20.676zM125.892 386.108c-65.448-65.448-70-165.481-20.677-235.637L361.53 406.784c-70.203 49.356-170.226 44.736-235.638-20.676z"
+                                                                    transform="translate(-256 -256)"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span></td>
+                                            <td style="text-align: right;">$199</td>
+                                            <td>
+                                                <div class="dropdown"><button type="button" aria-haspopup="true"
+                                                        aria-expanded="false" class="text-600 btn-reveal btn btn-link btn-sm"><svg
+                                                            aria-hidden="true" focusable="false" data-prefix="fas"
+                                                            data-icon="ellipsis-h"
+                                                            class="svg-inline--fa fa-ellipsis-h fa-w-16 fs--1" role="img"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                            <path fill="currentColor"
+                                                                d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z">
+                                                            </path>
+                                                        </svg></button>
+                                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                                        class="border py-2 dropdown-menu dropdown-menu-right"><button type="button"
+                                                            tabindex="0" role="menuitem" class="dropdown-item">View</button><button
+                                                            type="button" tabindex="0" role="menuitem"
+                                                            class="dropdown-item">Edit</button><button type="button" tabindex="0"
+                                                            role="menuitem" class="dropdown-item">Refund</button>
+                                                        <div tabindex="-1" class="dropdown-divider"></div><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-warning dropdown-item">Archive</button><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-danger dropdown-item">Delete</button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="btn-reveal-trigger">
+                                            <td>
+                                                <div class="custom-control custom-checkbox"><input class="custom-control-input"
+                                                        type="checkbox"><label class="custom-control-label"></label></div>
+                                            </td>
+                                            <td><a class="font-weight-semi-bold" href="/pages/customer-details">William Butler
+                                                    Yeats</a></td>
+                                            <td>william@gmail.com</td>
+                                            <td>Apple iPhone XR (64GB)</td>
+                                            <td><span class="rounded-capsule fs--1 badge badge-soft-success">Success<svg
+                                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="check"
+                                                        class="svg-inline--fa fa-check fa-w-16 ml-1" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        style="transform-origin: 0.5em 0.5em;">
+                                                        <g transform="translate(256 256)">
+                                                            <g transform="translate(0, 0)  scale(0.875, 0.875)  rotate(0 0 0)">
+                                                                <path fill="currentColor"
+                                                                    d="M173.898 439.404l-166.4-166.4c-9.997-9.997-9.997-26.206 0-36.204l36.203-36.204c9.997-9.998 26.207-9.998 36.204 0L192 312.69 432.095 72.596c9.997-9.997 26.207-9.997 36.204 0l36.203 36.204c9.997 9.997 9.997 26.206 0 36.204l-294.4 294.401c-9.998 9.997-26.207 9.997-36.204-.001z"
+                                                                    transform="translate(-256 -256)"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span></td>
+                                            <td style="text-align: right;">$798</td>
+                                            <td>
+                                                <div class="dropdown"><button type="button" aria-haspopup="true"
+                                                        aria-expanded="false" class="text-600 btn-reveal btn btn-link btn-sm"><svg
+                                                            aria-hidden="true" focusable="false" data-prefix="fas"
+                                                            data-icon="ellipsis-h"
+                                                            class="svg-inline--fa fa-ellipsis-h fa-w-16 fs--1" role="img"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                            <path fill="currentColor"
+                                                                d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z">
+                                                            </path>
+                                                        </svg></button>
+                                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                                        class="border py-2 dropdown-menu dropdown-menu-right"><button type="button"
+                                                            tabindex="0" role="menuitem" class="dropdown-item">View</button><button
+                                                            type="button" tabindex="0" role="menuitem"
+                                                            class="dropdown-item">Edit</button><button type="button" tabindex="0"
+                                                            role="menuitem" class="dropdown-item">Refund</button>
+                                                        <div tabindex="-1" class="dropdown-divider"></div><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-warning dropdown-item">Archive</button><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-danger dropdown-item">Delete</button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="btn-reveal-trigger">
+                                            <td>
+                                                <div class="custom-control custom-checkbox"><input class="custom-control-input"
+                                                        type="checkbox"><label class="custom-control-label"></label></div>
+                                            </td>
+                                            <td><a class="font-weight-semi-bold" href="/pages/customer-details">Rabindranath
+                                                    Tagore</a></td>
+                                            <td>tagore@twitter.com</td>
+                                            <td>ASUS Chromebook C202SA-YS02 11.6"</td>
+                                            <td><span class="rounded-capsule fs--1 badge badge-soft-secondary">Blocked<svg
+                                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ban"
+                                                        class="svg-inline--fa fa-ban fa-w-16 ml-1" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        style="transform-origin: 0.5em 0.5em;">
+                                                        <g transform="translate(256 256)">
+                                                            <g transform="translate(0, 0)  scale(0.875, 0.875)  rotate(0 0 0)">
+                                                                <path fill="currentColor"
+                                                                    d="M256 8C119.034 8 8 119.033 8 256s111.034 248 248 248 248-111.034 248-248S392.967 8 256 8zm130.108 117.892c65.448 65.448 70 165.481 20.677 235.637L150.47 105.216c70.204-49.356 170.226-44.735 235.638 20.676zM125.892 386.108c-65.448-65.448-70-165.481-20.677-235.637L361.53 406.784c-70.203 49.356-170.226 44.736-235.638-20.676z"
+                                                                    transform="translate(-256 -256)"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span></td>
+                                            <td style="text-align: right;">$318</td>
+                                            <td>
+                                                <div class="dropdown"><button type="button" aria-haspopup="true"
+                                                        aria-expanded="false" class="text-600 btn-reveal btn btn-link btn-sm"><svg
+                                                            aria-hidden="true" focusable="false" data-prefix="fas"
+                                                            data-icon="ellipsis-h"
+                                                            class="svg-inline--fa fa-ellipsis-h fa-w-16 fs--1" role="img"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                            <path fill="currentColor"
+                                                                d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z">
+                                                            </path>
+                                                        </svg></button>
+                                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                                        class="border py-2 dropdown-menu dropdown-menu-right"><button type="button"
+                                                            tabindex="0" role="menuitem" class="dropdown-item">View</button><button
+                                                            type="button" tabindex="0" role="menuitem"
+                                                            class="dropdown-item">Edit</button><button type="button" tabindex="0"
+                                                            role="menuitem" class="dropdown-item">Refund</button>
+                                                        <div tabindex="-1" class="dropdown-divider"></div><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-warning dropdown-item">Archive</button><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-danger dropdown-item">Delete</button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                        <tr class="btn-reveal-trigger">
+                                            <td>
+                                                <div class="custom-control custom-checkbox"><input class="custom-control-input"
+                                                        type="checkbox"><label class="custom-control-label"></label></div>
+                                            </td>
+                                            <td><a class="font-weight-semi-bold" href="/pages/customer-details">Emily Dickinson</a>
+                                            </td>
+                                            <td>emily@gmail.com</td>
+                                            <td>Mirari OK to Wake! Alarm Clock &amp; Night-Light</td>
+                                            <td><span class="rounded-capsule fs--1 badge badge-soft-warning">Pending<svg
+                                                        aria-hidden="true" focusable="false" data-prefix="fas" data-icon="stream"
+                                                        class="svg-inline--fa fa-stream fa-w-16 ml-1" role="img"
+                                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"
+                                                        style="transform-origin: 0.5em 0.5em;">
+                                                        <g transform="translate(256 256)">
+                                                            <g transform="translate(0, 0)  scale(0.875, 0.875)  rotate(0 0 0)">
+                                                                <path fill="currentColor"
+                                                                    d="M16 128h416c8.84 0 16-7.16 16-16V48c0-8.84-7.16-16-16-16H16C7.16 32 0 39.16 0 48v64c0 8.84 7.16 16 16 16zm480 80H80c-8.84 0-16 7.16-16 16v64c0 8.84 7.16 16 16 16h416c8.84 0 16-7.16 16-16v-64c0-8.84-7.16-16-16-16zm-64 176H16c-8.84 0-16 7.16-16 16v64c0 8.84 7.16 16 16 16h416c8.84 0 16-7.16 16-16v-64c0-8.84-7.16-16-16-16z"
+                                                                    transform="translate(-256 -256)"></path>
+                                                            </g>
+                                                        </g>
+                                                    </svg></span></td>
+                                            <td style="text-align: right;">$11</td>
+                                            <td>
+                                                <div class="dropdown"><button type="button" aria-haspopup="true"
+                                                        aria-expanded="false" class="text-600 btn-reveal btn btn-link btn-sm"><svg
+                                                            aria-hidden="true" focusable="false" data-prefix="fas"
+                                                            data-icon="ellipsis-h"
+                                                            class="svg-inline--fa fa-ellipsis-h fa-w-16 fs--1" role="img"
+                                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                                            <path fill="currentColor"
+                                                                d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z">
+                                                            </path>
+                                                        </svg></button>
+                                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                                        class="border py-2 dropdown-menu dropdown-menu-right"><button type="button"
+                                                            tabindex="0" role="menuitem" class="dropdown-item">View</button><button
+                                                            type="button" tabindex="0" role="menuitem"
+                                                            class="dropdown-item">Edit</button><button type="button" tabindex="0"
+                                                            role="menuitem" class="dropdown-item">Refund</button>
+                                                        <div tabindex="-1" class="dropdown-divider"></div><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-warning dropdown-item">Archive</button><button type="button"
+                                                            tabindex="0" role="menuitem"
+                                                            class="text-danger dropdown-item">Delete</button>
+                                                    </div>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        <div class="px-1 py-3 no-gutters row">
+                            <div class="pl-3 fs--1 col"><span>1 to 6 of 11 — </span><button type="button"
+                                    class="px-0 font-weight-semi-bold btn btn-link btn-sm">view all<svg aria-hidden="true"
+                                        focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                        class="svg-inline--fa fa-chevron-right fa-w-10 ml-1" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                                        style="transform-origin: 0.3125em 0.5625em;">
+                                        <g transform="translate(160 256)">
+                                            <g transform="translate(0, 32)  scale(0.75, 0.75)  rotate(0 0 0)">
+                                                <path fill="currentColor"
+                                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                                                    transform="translate(-160 -256)"></path>
+                                            </g>
+                                        </g>
+                                    </svg></button></div>
+                            <div class="pr-3 col-auto"><button type="button" disabled=""
+                                    class="btn btn-light btn-sm disabled">Previous</button><button type="button"
+                                    class="ml-2 px-4 btn btn-primary btn-sm">Next</button></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="no-gutters row">
+                    <div class="pr-lg-2 col-lg-4">
+                        <div class="h-100 bg-gradient card">
+                            <div class="bg-transparent card-header">
+                                <h5 class="text-white">Active users right now</h5>
+                                <div class="real-time-user display-1 font-weight-normal text-white">68</div>
+                            </div>
+                            <div class="text-white fs--1 card-body">
+                                <div class="chartjs-size-monitor">
+                                    <div class="chartjs-size-monitor-expand">
+                                        <div class=""></div>
+                                    </div>
+                                    <div class="chartjs-size-monitor-shrink">
+                                        <div class=""></div>
+                                    </div>
+                                </div>
+                                <p class="pb-2" style="border-bottom: 1px solid rgba(255, 255, 255, 0.15);">Page views per second
+                                </p><canvas height="280" width="704" class="chartjs-render-monitor"
+                                    style="display: block; height: 140px; width: 352px;"></canvas>
+                                <ul class="mt-4 list-group list-group-flush">
+                                    <li class="bg-transparent d-flex justify-content-between px-0 py-1 font-weight-semi-bold border-top-0 list-group-item"
+                                        style="border-color: rgba(255, 255, 255, 0.05);">
+                                        <p class="mb-0">Top Active Pages</p>
+                                        <p class="mb-0">Active Users</p>
+                                    </li>
+                                    <li class="bg-transparent d-flex justify-content-between px-0 py-1 list-group-item"
+                                        style="border-color: rgba(255, 255, 255, 0.05);">
+                                        <p class="mb-0">/bootstrap-themes/</p>
+                                        <p class="mb-0">3</p>
+                                    </li>
+                                    <li class="bg-transparent d-flex justify-content-between px-0 py-1 list-group-item"
+                                        style="border-color: rgba(255, 255, 255, 0.05);">
+                                        <p class="mb-0">/tags/html5/</p>
+                                        <p class="mb-0">3</p>
+                                    </li>
+                                    <li class="bg-transparent d-xxl-flex justify-content-between px-0 py-1 d-none list-group-item"
+                                        style="border-color: rgba(255, 255, 255, 0.05);">
+                                        <p class="mb-0">/</p>
+                                        <p class="mb-0">2</p>
+                                    </li>
+                                    <li class="bg-transparent d-xxl-flex justify-content-between px-0 py-1 d-none list-group-item"
+                                        style="border-color: rgba(255, 255, 255, 0.05);">
+                                        <p class="mb-0">/preview/falcon/dashboard/</p>
+                                        <p class="mb-0">2</p>
+                                    </li>
+                                    <li class="bg-transparent d-flex justify-content-between px-0 py-1 list-group-item"
+                                        style="border-color: rgba(255, 255, 255, 0.05);">
+                                        <p class="mb-0">/100-best-themes...all-time/</p>
+                                        <p class="mb-0">1</p>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="text-right bg-transparent card-footer"
+                                style="border-top: 1px solid rgba(255, 255, 255, 0.15);"><a class="text-white" href="/#!">Real-time
+                                    report<svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                        class="svg-inline--fa fa-chevron-right fa-w-10 ml-1 fs--1" role="img"
+                                        xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512"
+                                        style="transform-origin: 0.3125em 0.5625em;">
+                                        <g transform="translate(160 256)">
+                                            <g transform="translate(0, 32)  scale(1, 1)  rotate(0 0 0)">
+                                                <path fill="currentColor"
+                                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z"
+                                                    transform="translate(-160 -256)"></path>
+                                            </g>
+                                        </g>
+                                    </svg></a></div>
+                        </div>
+                    </div>
+                    <div class="pl-lg-2 col-lg-8">
+                        <div class="h-100 mt-3 mt-lg-0 card">
+                            <div class="bg-light d-flex justify-content-between card-header">
+                                <h5 class="mb-0">Active users</h5>
+                                <div class="text-sans-serif dropdown"><button type="button" boundary="viewport" aria-haspopup="true"
+                                        aria-expanded="false" class="text-600 dropdown-caret-none btn btn-link btn-sm"><svg
+                                            aria-hidden="true" focusable="false" data-prefix="fas" data-icon="ellipsis-h"
+                                            class="svg-inline--fa fa-ellipsis-h fa-w-16 fs--1" role="img"
+                                            xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                                            <path fill="currentColor"
+                                                d="M328 256c0 39.8-32.2 72-72 72s-72-32.2-72-72 32.2-72 72-72 72 32.2 72 72zm104-72c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72zm-352 0c-39.8 0-72 32.2-72 72s32.2 72 72 72 72-32.2 72-72-32.2-72-72-72z">
+                                            </path>
+                                        </svg></button>
+                                    <div tabindex="-1" role="menu" aria-hidden="true"
+                                        class="border py-0 dropdown-menu dropdown-menu-right">
+                                        <div class="bg-white py-2"><button type="button" tabindex="0" role="menuitem"
+                                                class="dropdown-item">Edit</button><button type="button" tabindex="0"
+                                                role="menuitem" class="dropdown-item">Move</button><button type="button"
+                                                tabindex="0" role="menuitem" class="dropdown-item">Resize</button>
+                                            <div tabindex="-1" class="dropdown-divider"></div><button type="button" tabindex="0"
+                                                role="menuitem" class="text-warning dropdown-item">Archive</button><button
+                                                type="button" tabindex="0" role="menuitem"
+                                                class="text-danger dropdown-item">Delete</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="p-3 overflow-hidden card-body">
+                                <div class="echarts-for-react " _echarts_instance_="ec_1570979361056" size-sensor-id="1"
+                                    style="height: 420px; width: 100%; -webkit-tap-highlight-color: transparent; user-select: none; position: relative;">
+                                    <div
+                                        style="position: relative; overflow: hidden; width: 760px; height: 420px; padding: 0px; margin: 0px; border-width: 0px;">
+                                        <canvas data-zr-dom-id="zr_0" width="1520" height="840"
+                                            style="position: absolute; left: 0px; top: 0px; width: 760px; height: 420px; user-select: none; -webkit-tap-highlight-color: rgba(0, 0, 0, 0); padding: 0px; margin: 0px; border-width: 0px;"></canvas>
+                                    </div>
+                                    <div></div><object
+                                        style="display:block;position:absolute;top:0;left:0;height:100%;width:100%;overflow:hidden;pointer-events:none;z-index:-1;opacity:0"
+                                        class="size-sensor-object" tabindex="-1" type="text/html" data="about:blank"></object>
+                                </div>
+                            </div>
+                            <div class="bg-light card-footer">
+                                <div class="justify-content-between row">
+                                    <div class="col-auto"><select type="select" id="selectDuration"
+                                            class="custom-select custom-select-sm">
+                                            <option value="week">Last 7 days</option>
+                                            <option value="month">Last month</option>
+                                            <option value="year">Last year</option>
+                                        </select></div>
+                                    <div class="col-auto"><button class="btn btn-falcon-default btn-sm"><span
+                                                class="d-none d-sm-inline-block mr-1">Location</span>Overview<svg aria-hidden="true"
+                                                focusable="false" data-prefix="fas" data-icon="chevron-right"
+                                                class="svg-inline--fa fa-chevron-right fa-w-10 ml-1 fs--1" role="img"
+                                                xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512">
+                                                <path fill="currentColor"
+                                                    d="M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z">
+                                                </path>
+                                            </svg></button></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <div class="justify-content-between text-center fs--1 mt-4 mb-3 no-gutters row">
+                        <div class="col-sm-auto">
+                            <p class="mb-0 text-600">Thank you for creating with Falcon <span class="d-none d-sm-inline-block">|
+                                </span><br class="d-sm-none"> 2019 © <a href="https://themewagon.com">Themewagon</a></p>
+                        </div>
+                        <div class="col-sm-auto">
+                            <p class="mb-0 text-600">v1.0.0</p>
+                        </div>
+                    </div>
+                </footer>
+            </div>
         </div>
     </main>
 </body>
